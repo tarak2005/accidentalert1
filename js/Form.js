@@ -45,8 +45,8 @@ class Form{
         
        //make a display function to show your form on the screen
         this.title.html('Report an accident');
-        this.title.position(70,300);      
-        this.button.position(170,400);
+        this.title.position(70,350);      
+        this.button.position(170,450);
         
       
         //make a mouse pressed function to
@@ -57,26 +57,26 @@ class Form{
             this.button.hide();
          
            this.vehicleNumber.html('Vehicle Number : ');
-           this.vehicleNumber.position(30,100);
-        this.vehicleN.position(250,120);
+           this.vehicleNumber.position(20,100);
+        this.vehicleN.position(240,120);
 
        
         this.place.html('Location :');
-        this.place.position(30,200);
-        this.location.position(250,220);
+        this.place.position(20,200);
+        this.location.position(240,220);
 
 
         this.vehicleType.html('Vehicle Type: ');
-        this.vehicleType.position(30,300);
-        this.vehicle.position(250,320);
+        this.vehicleType.position(20,300);
+        this.vehicle.position(240,320);
 
         this.time.html('Time: ');
-        this.time.position(30,400);
-        this.timeT.position(250,420);
+        this.time.position(20,400);
+        this.timeT.position(240,420);
 
         this.additional.html('Additional Details:');
-        this.additional.position(30,500);
-        this.additionalA.position(250,500);
+        this.additional.position(20,500);
+        this.additionalA.position(240,500);
 
         this.submit.position(170,600);
      
