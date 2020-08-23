@@ -58,25 +58,25 @@ class Form{
          
            this.vehicleNumber.html('Vehicle Number : ');
            this.vehicleNumber.position(20,100);
-        this.vehicleN.position(240,120);
+        this.vehicleN.position(220,120);
 
        
         this.place.html('Location :');
         this.place.position(20,200);
-        this.location.position(240,220);
+        this.location.position(220,220);
 
 
         this.vehicleType.html('Vehicle Type: ');
         this.vehicleType.position(20,300);
-        this.vehicle.position(240,320);
+        this.vehicle.position(220,320);
 
         this.time.html('Time: ');
         this.time.position(20,400);
-        this.timeT.position(240,420);
+        this.timeT.position(220,420);
 
         this.additional.html('Additional Details:');
         this.additional.position(20,500);
-        this.additionalA.position(240,500);
+        this.additionalA.position(220,500);
 
         this.submit.position(170,600);
      
