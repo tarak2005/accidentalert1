@@ -7,20 +7,25 @@ class Form{
 
         this.vehicleNumber = createElement('h2');
         this.vehicleN = createInput("");
+        this.vehicleN.size(100,70);
 
 
         this.vehicleType= createElement('h2');
         this.vehicle= createInput("");
+        this.vehicle.size(100,70);
 
 
         this.place = createElement("h2");
         this.location = createInput("");
+        this.location.size(100,70);
 
         this.time = createElement('h2');
         this.timeT= createInput("");
+        this.timeT.size(100,70);
 
         this.additional=createElement('h2');
         this.additionalA=createInput("");
+      
 
         this.additionalA.size(155,50);
         this.submit = createButton("Submit");
